@@ -31,7 +31,7 @@ A RESTful API for managing todo tasks, built with .NET 9.
   - `Validators` – Input validation
 - **TodoApi.Tests**: Unit tests
   - `Unit` – Tests for services and business logic
-  - `Integration` – End-to-end API tests
+
 
 ## 🛠 Requirements
 
@@ -120,7 +120,7 @@ RESTful API do zarządzania zadaniami typu todo, zbudowane z użyciem .NET 9.
   - `Validators` – Walidacja danych wejściowych
 - **TodoApi.Tests**: Testy jednostkowe
   - `Unit` – Testy dla serwisów i logiki biznesowej
-  - `Integration` – Testy end-to-end API
+
 
 ## 🛠 Wymagania
 
