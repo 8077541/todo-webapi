@@ -85,7 +85,7 @@ dotnet test TodoApi.Tests
 
 ---
 
-#WERSJA POLSKA
+# WERSJA POLSKA
 
 # TodoApi
 
