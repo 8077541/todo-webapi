@@ -26,6 +26,6 @@ curl -f http://localhost/health || exit 1' > /app/healthcheck.sh \
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD ["/app/healthcheck.sh"]
 
 # Use environment variables for connection string
-ENV ConnectionStrings__DefaultConnection="Server=db;Database=TodoDB;User Id=sa;Password=YourStrong@Passw0rd123;TrustServerCertificate=True"
+ENV ConnectionStrings__DefaultConnection="Server=db;Database=TodoDB;User Id=sa;Password=YourStrong@Password123;TrustServerCertificate=True"
 
 ENTRYPOINT ["dotnet", "TodoApi.dll"]
